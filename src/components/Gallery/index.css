@@ -1,0 +1,38 @@
+/* Write your code here. */
+.main {
+  padding: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  width: 50vw;
+}
+
+.img {
+  width: 100%;
+}
+
+.thamp_container {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  border: none;
+  background-color: transparent;
+}
+
+.thamp_img {
+  width: 100px;
+  border-radius: 10px;
+}
+
+.opacity-on {
+  opacity: 1;
+}
+
+.opacity-off {
+  opacity: 0.3;
+}
+
+li{
+  list-style-type: none;
+}
